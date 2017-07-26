@@ -23,21 +23,21 @@
 
 package unsplash
 
-// UserSearchResult represnts the result for a search for users.
+// UserSearchResult represents the result for a search for users.
 type UserSearchResult struct {
 	Total      *int    `json:"total"`
 	TotalPages *int    `json:"total_pages"`
 	Results    *[]User `json:"results"`
 }
 
-// PhotoSearchResult represnts the result for a search for photos.
+// PhotoSearchResult represents the result for a search for photos.
 type PhotoSearchResult struct {
 	Total      *int     `json:"total"`
 	TotalPages *int     `json:"total_pages"`
 	Results    *[]Photo `json:"results"`
 }
 
-// CollectionSearchResult represnts the result for a search for collections.
+// CollectionSearchResult represents the result for a search for collections.
 type CollectionSearchResult struct {
 	Total      *int          `json:"total"`
 	TotalPages *int          `json:"total_pages"`
